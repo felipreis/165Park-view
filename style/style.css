@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5F5DC;
+    color: #2F4F4F;
+    font-family: Jost;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+header{
+    background-color: black;
+    height: 80px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0rem 4rem;
+    align-items: center;
+    color:#F5F5DC;
+
+}
+
+.logo-park{
+    height: 80px;
+    padding: 1rem;
+}
+
+li{
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+li:hover{
+    border-bottom:solid #FFFFFF 1px;
+}
+
+main{
+
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:4rem;
+}
+
+.container{
+    width: 40%;
+    border: solid #000000 2px;
+    border-radius: 1rem;
+    padding-top:3rem;
+    background-color: #1f1e1e;
+}
+
+form{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 1rem;
+    color: #FFFFFF;
+}
+
+input{
+    height: 40px;
+    border-radius: 1rem;
+    border: none;
+}
+
+button{
+    margin:1rem auto;
+    width: 60%;
+    height: 40px;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #8b8b87;
+    color: #FFFFFF;
+}
+
+.invisivel{
+    display: none;
+}

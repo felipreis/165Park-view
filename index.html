@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>165 Park</title>
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
+    <script src="./script/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <img class = "logo-park" src = "./img/Frame 9.png" alt = "logocoworking">
+            <ul>
+                <li id = "entrada-btn">entrada</li>
+                <li id = "saida-btn">saida</li>
+                <li id = "veiculos-btn">veiculos</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id = "entrada-veiculo" class = "container ">
+            <form>
+                <label for="placa">Placa</label>
+                <input type = "text" id = "placa" name = "placa">
+
+                <label for="modelo">Modelo</label>
+                <input type = "text" id = "modelo" name = "modelo">
+
+                <button>Entrada</button>
+            </form>
+        </section>
+
+
+        <section id = "saida-veiculo" class = "container  invisivel">
+            <form>
+                <label for="placa">Placa</label>
+                <input type = "text" id = "placa" name = "placa">
+
+                <label for="entrada">Hora Entrada</label>
+                <input type = "text" id = "entrada" name = "entrada">
+
+                <button>Saida</button>
+            </form>
+        </section>
+
+                
+
+        <section id = "veiculo" class = "container  invisivel">
+
+        </section>
+    </main>
+    
+    
+</body>
+</html>
